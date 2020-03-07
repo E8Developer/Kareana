@@ -75,13 +75,22 @@ WSGI_APPLICATION = 'kareana.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "d29uo4l21ogblk",
+        "USER": "drzhecrevzyrdj",
+        "PASSWORD": "1104085dae070af9a219d39c816ac27615d6651081cefdea4887c3eda47dc1b1",
+        "HOST": "ec2-34-235-108-68.compute-1.amazonaws.com",
+        "PORT": "5432",
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
