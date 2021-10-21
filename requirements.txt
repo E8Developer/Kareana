@@ -1,6 +1,6 @@
 argh==0.26.2
 asn1crypto==0.24.0
-Babel==2.6.0
+Babel==2.9.1
 baton==1.0.1
 bootstrap-admin==0.4.3
 cachetools==3.1.1
